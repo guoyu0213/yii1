@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="{url:/plugins/miao_add}" method="post">
+    <input type="hidden" id="name">
+    <table>
+        <tr>
+            <td>商品：</td>
+            <td>
+                <select name="goods_is" id="">
+                    <option value="">阿迪达斯</option>
+                    <option value="">耐克</option>
+                    <option value="">乔丹</option>
+                    <option value="">以纯</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>价格：</td>
+            <td><input type="text" name="price"></td>
+        </tr>
+        <tr>
+            <td>库存：</td>
+            <td><input type="text" name="p_mun"></td>
+        </tr>
+        <tr>
+            <td>开始时间：</td>
+            <td><input type="text" name="p_time"  pattern="datetime" readonly='true' class='Wdate' onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" alt="开始和结束时间不能为空">
+            </td>
+        </tr>
+        <tr>
+            <td>描述：</td>
+            <td><textarea name="content"  cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="确定"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

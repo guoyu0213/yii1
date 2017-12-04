@@ -1,0 +1,220 @@
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-22 09:17:36
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-22 10:00:27
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for IModel::__construct(), called in D:\phpstudy\WWW\iwebshop\plugins\miao\miao.php on line 55 and defined
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 36
+errorCode: 2
+errorTime: 2017-09-22 10:06:32
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tableName
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 42
+errorCode: 8
+errorTime: 2017-09-22 10:06:32
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tableName
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 57
+errorCode: 8
+errorTime: 2017-09-22 10:06:32
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT id,name FROM i_ limit 50000
+ -- Table 'iwebshop.i_' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-09-22 10:06:32
+#0 IWEB_PATH/lib/web/model/model_class.php(209): IDB->query(SELECT id,name FROM i_ limit 50000)
+#1 IWEB_PATH/plugins/miao/miao.php(56): IModel->query(,id,name)
+#2 : miao->{closure}()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for IModel::__construct(), called in D:\phpstudy\WWW\iwebshop\plugins\miao\miao.php on line 55 and defined
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 36
+errorCode: 2
+errorTime: 2017-09-22 10:08:53
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tableName
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 42
+errorCode: 8
+errorTime: 2017-09-22 10:08:53
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tableName
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 57
+errorCode: 8
+errorTime: 2017-09-22 10:08:53
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT id,name FROM i_ limit 50000
+ -- Table 'iwebshop.i_' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-09-22 10:08:53
+#0 IWEB_PATH/lib/web/model/model_class.php(209): IDB->query(SELECT id,name FROM i_ limit 50000)
+#1 IWEB_PATH/plugins/miao/miao.php(56): IModel->query(,id,name)
+#2 : miao->{closure}()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for IModel::__construct(), called in D:\phpstudy\WWW\iwebshop\plugins\miao\miao.php on line 55 and defined
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 36
+errorCode: 2
+errorTime: 2017-09-22 10:11:28
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tableName
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 42
+errorCode: 8
+errorTime: 2017-09-22 10:11:28
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tableName
+errorFile: IWEB_PATH/lib/web/model/model_class.php
+errorLine: 57
+errorCode: 8
+errorTime: 2017-09-22 10:11:28
+#0 IWEB_PATH/plugins/miao/miao.php(55): IModel->__construct()
+#1 : miao->{closure}()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT id,name FROM i_ limit 50000
+ -- Table 'iwebshop.i_' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-09-22 10:11:28
+#0 IWEB_PATH/lib/web/model/model_class.php(209): IDB->query(SELECT id,name FROM i_ limit 50000)
+#1 IWEB_PATH/plugins/miao/miao.php(56): IModel->query(,id,name)
+#2 : miao->{closure}()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(miao)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

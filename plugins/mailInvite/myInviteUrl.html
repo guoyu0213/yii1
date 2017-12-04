@@ -1,0 +1,28 @@
+<div class="main f_r">
+	<div class="uc_title m_10">
+		<label class="current"><span>邀情注册</span></label>
+	</div>
+	<div class="form_content">
+		<div class="uc_title2 m_10"><span class="f_r">带<b class="red">*</b>号的项目为必填项</span><strong>邀情链接</strong></div>
+		<form action='{url:/ucenter/inviteSendMail}' method='post'>
+			<table class="form_table" cellpadding="0" cellspacing="0">
+				<col width="200px" />
+				<col />
+				<tr>
+					<th><span class="red">你邀请注册链接是：</span></th>
+					<td>{echo:$inviteUrl}</td>
+				</tr>
+				<tr>
+					<th>好友邮箱：</th>
+					<td><input type="text" class="normal" name="mailPath" pattern="email" alt="请输出正确的邮箱"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<td>
+						<label class="btn"><input type="submit" value="发送邮件" /></label>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,793 @@
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 09:12:35
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 09:57:49
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 10:07:04
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 10:17:41
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 10:17:40 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <26441d4a7d7cd7f05bc43975dcdf1e13@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): Failed to enable crypto
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 10:17:41
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 10:17:40 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <26441d4a7d7cd7f05bc43975dcdf1e13@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): unable to connect to ssl://smtp.qq.com:25 (Unknown error)
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 10:17:41
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 10:17:40 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <26441d4a7d7cd7f05bc43975dcdf1e13@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 10:34:00
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 14:04:47
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): unable to connect to smtp.qq.com:25 (������ӷ���һ��ʱ���û���ȷ�𸴻�ӵ����û�з�Ӧ�����ӳ���ʧ�ܡ�
+)
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 16:42:31
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 16:42:03 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <e58380efaca093604c2b0a60a5e3fb7f@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 16:42:48
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 16:42:44 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <5131b8069ce51344dbdd3acd08993f1e@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): Failed to enable crypto
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 16:42:48
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 16:42:44 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <5131b8069ce51344dbdd3acd08993f1e@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): unable to connect to ssl://smtp.qq.com:25 (Unknown error)
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 16:42:48
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 16:42:44 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <5131b8069ce51344dbdd3acd08993f1e@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 19:42:30
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 19:42:30 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <fe9d5ba205d7a809c3edd75dc3550238@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): Failed to enable crypto
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 19:42:30
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 19:42:30 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <fe9d5ba205d7a809c3edd75dc3550238@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: stream_socket_client(): unable to connect to ssl://smtp.qq.com:25 (Unknown error)
+errorFile: IWEB_PATH/lib/core/util/phpmailer/class.smtp.php
+errorLine: 283
+errorCode: 2
+errorTime: 2017-09-14 19:42:30
+#0 IWEB_PATH/lib/core/util/phpmailer/class.smtp.php(283): stream_socket_client(ssl://smtp.qq.com:25,0,,60,4)
+#1 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1425): SMTP->connect(ssl://smtp.qq.com,25,60)
+#2 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1310): PHPMailer->smtpConnect()
+#3 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1155): PHPMailer->smtpSend(Date: Thu, 14 Sep 2017 19:42:30 +0800
+To: 1720567523@qq.com
+From: iWebShop <1720567523@qq.com>
+Subject: email test
+Message-ID: <fe9d5ba205d7a809c3edd75dc3550238@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。
+)
+#4 IWEB_PATH/lib/core/util/phpmailer/class.phpmailer.php(1059): PHPMailer->postSend()
+#5 IWEB_PATH/classes/sendmail.php(135): PHPMailer->send()
+#6 IWEB_PATH/controllers/system.php(40): SendMail->send(1720567523@qq.com,email test,您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。)
+#7 : System->test_sendmail()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test_sendmail)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: site_config
+errorFile: IWEB_PATH/plugins/mailInvite/mailInvite.php
+errorLine: 110
+errorCode: 8
+errorTime: 2017-09-14 19:48:26
+#0 : mailInvite->sendmail()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(214): plugin::trigger(onBeforeCreateAction@ucenter@inviteSendMail)
+#3 : plugin::onBeforeCreateAction(inviteSendMail)
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func(inviteSendMail)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(112): IInterceptor::run(onBeforeCreateAction,inviteSendMail)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(inviteSendMail)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: test_address
+errorFile: IWEB_PATH/plugins/mailInvite/mailInvite.php
+errorLine: 116
+errorCode: 8
+errorTime: 2017-09-14 19:48:26
+#0 : mailInvite->sendmail()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(214): plugin::trigger(onBeforeCreateAction@ucenter@inviteSendMail)
+#3 : plugin::onBeforeCreateAction(inviteSendMail)
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func(inviteSendMail)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(112): IInterceptor::run(onBeforeCreateAction,inviteSendMail)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(inviteSendMail)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:00:28
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:01:23
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:14:50
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:17:36
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:06
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:06
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:08
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:09
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:09
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:10
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:15
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:15
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:16
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:27:17
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:28:03
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:28:03
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:28:04
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:28:05
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:33:16
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/plugins/seckill/seckill.php
+errorLine: 200
+errorCode: 8
+errorTime: 2017-09-14 20:33:24
+#0 : seckill->seckillSiteShow()
+#1 IWEB_PATH/classes/plugin.php(103): call_user_func_array()
+#2 IWEB_PATH/classes/plugin.php(216): plugin::trigger(onFinishAction@site@index)
+#3 : plugin::onFinishAction()
+#4 IWEB_PATH/lib/core/interceptor_class.php(114): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(116): IInterceptor::run(onFinishAction)
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

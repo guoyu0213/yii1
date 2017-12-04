@@ -1,0 +1,58 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<script src="./public/javascript/jquery.m.js"></script>
+<script src="./public/javascript/rotaryDraw.js"></script>
+<style>
+.box{
+	position:relative;
+	max-width:500px;
+	margin:0 auto;
+}
+.box .img01{
+	width:100%;
+}
+.box .drawBtn{
+	position:absolute;
+	width:10rem;
+	height:auto;
+	left:50%;
+	margin-left:-5rem;
+}
+</style>
+<div class="main f_r">
+	<div class="uc_title m_10">
+		<label class="current"><span>幸运大转盘</span></label>
+	</div>
+	<div class="form_content">
+		<div class="box">
+			<img src="./public/img/1.png" class="img01" alt="">
+			<img src="./public/img/3.png" class="drawBtn">
+		</div>
+	</div>
+</div>
+
+<script>
+	$(".box .img01").load(function() {
+		var obj = $(".drawBtn");
+		var hei = $(this).height();
+		var hei2 = obj.height();
+		obj.css("top",(hei - hei2)/2);
+	});
+</script>
+<script>
+	function callbackA(ind){
+		alert("第一个回调"+ind);
+	};
+	var newdraw =new turntableDraw('.drawBtn',{
+		share:8,
+		speed:"3s",
+		velocityCurve:"ease",
+		weeks:6,
+		callback:function(num){
+			callbackA(num);
+		},
+	});
+	$(".drawBtn").click(function(event) {
+		newdraw.goto(parseInt(Math.random()*8)+1);
+	});
+</script>

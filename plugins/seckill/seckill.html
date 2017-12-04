@@ -1,0 +1,45 @@
+{js:my97date}
+<div class="content_box">
+	<div class="content form_content">
+		<form action='{url:/plugins/seckill_add}' method='post' >
+			<table class="form_table">
+				<col width="150px" />
+				<col />
+				<input type='hidden' name='id' value="" />
+				<tr>
+					<th>请选择商品：</th>
+					<td>
+                        <select name="goods_id" class="normal">
+                            {foreach:$items=$goodsList}
+                                <option value="{$item['id']}">{$item['name']}</option>
+                            {/foreach}
+                        </select>
+                    </td>
+				</tr>
+				<tr>
+                    <th>秒杀时间：</th>
+                    <td>
+                        <input type="text" name="begin_time"  pattern="datetime" readonly='true' class='Wdate' onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" alt="开始时间不能为空">
+                    </td>
+				</tr>
+                <tr>
+                    <th>秒杀价格：</th>
+                    <td>
+                        <input type="text" name="price" class="normal" pattern="required" alt="价格不能为空">
+                    </td>
+                </tr>
+                <tr>
+                    <th>商品数量：</th>
+                    <td>
+                        <input type="text" name="total_num" class="normal" pattern="required" alt="数量不能为空">
+                    </td>
+                </tr>
+				<tr>
+					<th></th><td><button class='submit' type='submit'><span>确 定</span></button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+
+
